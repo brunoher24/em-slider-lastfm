@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.my-slider-ctnr {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.my-slider-ctnr > nav {
+    position: absolute;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1vw;
+    width: 98vw;
+    height: 30px;
+    top: calc(50% - 15px);
+    left: 0;
+    z-index: 1;
+}
+
+.my-slides-ctnr {
+    height: 400px;
+    position: relative;
+    display: flex;
+}
+
+.my-slide-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100vw;
+}
