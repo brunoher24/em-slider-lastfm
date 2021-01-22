@@ -35,41 +35,12 @@ body {
     width: 100vw;
 }
 
-article {
-    width: 96%;
-    margin: 10px 2% 10px 2%;
-    height: 275px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 1px 1px 6px silver;
+.my-pagination > ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
 }
 
-article > h3, article > p {
-    margin-top: 8px;
-    margin-bottom: 6px;
-}
-
-.article-image {
-    width: 100%;
-    height: 170px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px
-}
-
-.img-offers-1 {
-    background-image: url(../images/1.png);
-}
-
-.img-offers-2 {
-    background-image: url(../images/2.png);
-}
-
-.img-offers-3 {
-    background-image: url(../images/2.jpg);
-}
 
 
 
