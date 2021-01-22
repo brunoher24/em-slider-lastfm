@@ -102,5 +102,6 @@ class MySlider {
     //         <button> Precedent </button>
     //         <button> Suivant </button>
     //     </nav>
+            
     // </div>
 }
