@@ -3,6 +3,7 @@
 class MySlider {
     constructor(selector, slides) {
         this.$ctnr = document.querySelector(selector);
+        this.$ctnr.innerHTML = "";
         this.$slidesCtnr;
         this.slides = slides;
         // this.slides = ['../images/1.png', '../images/2.jpg', '../images/2.png', '../images/3.png'];
@@ -102,6 +103,6 @@ class MySlider {
     //         <button> Precedent </button>
     //         <button> Suivant </button>
     //     </nav>
-            
+
     // </div>
 }
